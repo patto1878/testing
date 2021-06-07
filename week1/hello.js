@@ -410,25 +410,25 @@
 // grid above info. numbers 1-9 in grid oridginally, swap with xs to get winner winner, essentially a naughts and crosses board
 
 
-let pin = true;
-let op1 = "Withdraw";
-let op2 = "Check balance";
-let availBal = 500;
-let withdraw = 200;
-const getCash = () => {
-    if (pin === true) {
-        console.log("Pin correct. Select option: Withdraw or Check balance");
-        console.log(`your available balance is ${availBal} pounds`  );
-        console.log("How much would you like to withdraw?");
-        if (withdraw <= availBal) {
-            console.log(`You have selected to withdraw ${withdraw} pounds.`);
-        } else {
-            console.log("Not enough funds");
-        }
-    } else {
-        console.log("Incorrect Pin");
-    }
-}
-getCash ();
+// let pin = true;
+// let op1 = "Withdraw";
+// let op2 = "Check balance";
+// let availBal = 500;
+// let withdraw = 200;
+// const getCash = () => {
+//     if (pin === true) {
+//         console.log("Pin correct. Select option: Withdraw or Check balance");
+//         console.log(`your available balance is ${availBal} pounds`  );
+//         console.log("How much would you like to withdraw?");
+//         if (withdraw <= availBal) {
+//             console.log(`You have selected to withdraw ${withdraw} pounds.`);
+//         } else {
+//             console.log("Not enough funds");
+//         }
+//     } else {
+//         console.log("Incorrect Pin");
+//     }
+// }
+// getCash ();
 
 
